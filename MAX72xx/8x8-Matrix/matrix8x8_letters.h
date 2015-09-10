@@ -1,6 +1,6 @@
 // set letters for 8x8 matrix
 // uses setRow from LedControl.h and LedControl.cpp files
-// leftmost column is OFF
+// leftmost and rightmost columns are OFF
 // top row is OFF
 
 byte A[8] = {B00000000,B01111111,B10001000,B10001000,B10001000,B01111111,B00000000,B00000000};
