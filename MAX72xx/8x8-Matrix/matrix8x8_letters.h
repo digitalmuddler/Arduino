@@ -1,0 +1,31 @@
+// set letters for 8x8 matrix
+// uses setRow from LedControl.h and LedControl.cpp files
+// leftmost column is OFF
+// top row is OFF
+
+byte A[8] = {B00000000,B01111111,B10001000,B10001000,B10001000,B01111111,B00000000,B00000000};
+byte B[8] = {B00000000,B01111111,
+byte C[8] = {B00000000,
+byte D[8] = {B00000000,B01111111,
+byte E[8] = {B00000000,B01111111,
+byte F[8] = {B00000000,B01111111,
+byte G[8] = {B00000000,
+byte H[8] = {B00000000,B01111111,B00001000,B00001000,B00001000,B00001000,B01111111,B00000000};
+byte I[8] = {B00000000,
+byte J[8] = {B00000000,
+byte K[8] = {B00000000,B01111111,
+byte L[8] = {B00000000,B01111111,
+byte M[8] = {B00000000,B01111111,
+byte N[8] = {B00000000,B01111111,
+byte O[8] = {B00000000,
+byte P[8] = {B00000000,B01111111,
+byte Q[8] = {B00000000,
+byte R[8] = {B00000000,B01111111,
+byte S[8] = {B00000000,
+byte T[8] = {B00000000,
+byte U[8] = {B00000000,
+byte V[8] = {B00000000,
+byte W[8] = {B00000000,
+byte X[8] = {B00000000,
+byte Y[8] = {B00000000,
+byte Z[8] = {B00000000,
