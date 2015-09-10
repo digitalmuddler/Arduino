@@ -1,4 +1,5 @@
 Need LedControl
 
-http://playground.arduino.cc/Main/LedControl
-https://github.com/wayoda/LedControl
+Arduino Site: http://playground.arduino.cc/Main/LedControl
+
+Source: https://github.com/wayoda/LedControl
