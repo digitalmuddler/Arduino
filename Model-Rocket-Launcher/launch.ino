@@ -1,15 +1,12 @@
-
 // include the library code:
 #include <LiquidCrystal.h>
 
 // initialize the library with the numbers of the interface pins
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
-int i = 0;
 
 void setup() {
-  // set up the LCD's number of columns and rows:
+  //initialize the LCD
   lcd.begin(16, 2);
-  // Print a message to the LCD.
 
   //if power on/connection off/launch off
   lcd.print("System Standby");
@@ -17,7 +14,7 @@ void setup() {
  
   //power on/igniter connected/launch off
   
-  for (i = 1; i < 10; i++) {
+  for (int i = 1; i < 10; i++) {
  
     lcd.begin(16,2);
     lcd.print("Launch Hold");
